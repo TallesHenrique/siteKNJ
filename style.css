@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- BARRA DE NAVEGAÇÃO  --------- */
+
+
+
+nav{
+    padding: 5% 0px;
+    padding-right: 12%;
+    
+}
+
+li{
+    text-align: center;
+    float: right;
+    padding-left: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+nav ul{
+   
+    list-style: none;
+
+}
+nav a#navbar{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold; /*Negrito*/
+    letter-spacing: 1px;
+    padding: 4px; 
+}
+
+a#navbar:hover{
+    background-color:#DCDCDC;
+    border-radius: 15px;
+    box-shadow:
+    1px 1px #53a7ea,
+    2px 2px #53a7ea,
+    4px 4px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+header{
+    background-image: url(imagem/casa-de-concreto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 0;
+    
+}
+ul li{
+    list-style:none ;
+    
+}
+.logo img{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    z-index: 1;
+    margin-bottom: 50px;
+    border: none;
+}
+
+
+/* ---------- MAIN  ---------*/
+
+
+
+#section-galeria{
+    border-bottom-right-radius: 30px;
+    border-top-left-radius:30px;
+    background-color: lavender;
+    height: 750px;
+    width: 1050px;
+    margin: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 40px 0px 40px 70px;
+    box-shadow:1px 1px 3px black;
+}
+p{
+    padding: 30px 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-indent: 1.5cm;
+    text-align: justify;
+}
+
+#section-contato{
+  
+
+    border-bottom-left-radius: 30px;
+    border-top-right-radius:30px;
+    background-color: lavender;
+    height: 650px;
+    width: 600px;
+    margin: 15px;
+    margin-left: 35%;
+    padding: 20px 0px;
+    box-shadow:1px 1px 3px black;
+
+}
+#div-contato{
+    display: inline-block;
+    
+    
+    margin: 10% 3%;
+   
+}
+h1{
+    height: 80px;
+    width: 70px;
+    padding: 80px 0px 0px 50px;
+
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+
+#galeria-imagem{
+   
+    margin: 1em;
+    float: left;
+}
+
+h2{
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    margin: 40px 45%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black; text-shadow: #696969 0.1em 0.1em 0.2em
+}
+a,h2:link, a:visited, a:active {
+    text-decoration:none;
+    border: none;
+	}
+a,h2:hover {
+	text-decoration: none;
+	color:#000; 
+    border: none; 
+}
+
+label#div-contato{
+    display: inline;
+}
+#section-avatar{
+    display: inline-block;
+    height: 120px;
+    width: 110px;
+    margin:60px 0px 65px 42% ;
+
+}
+label, input{
+    font-size: 20px;
+    margin: 5px 30%;
+    padding: 10px;
+    
+}
+    input, textarea{
+        border-radius: 10px;
+        display: block;
+}
+    textarea{
+        margin-left: 25%;
+        resize: none;
+}
+    button{
+        margin:20px 0px 15px 45% ;
+        font-size: 20px;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        
+}
+    #img-avatar{
+        height: 260px;
+        width: 260px;
+        border-radius: 50%;
+        border: solid 1px black;
+}
+img{
+    width: 190px;
+    height: 200px;
+
+    background-color: fafafc;
+    border: 1px solid #a3a3a3;
+    padding: 5px;
+}
+
+body{
+    background-color: #DCDCDC;
+    
+    
+}
+
+/* ---------- RODAPÉ  ---------*/
+
+
+
+#footer-inline{
+    display: inline-block;
+    
+}
+
+
+#copyright{
+    color: #696969;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+footer{
+    background-color: #F5F5F5;
+}
+#label-footer{
+    float: right;
+    margin: 60px 0px;
+    margin-left: 450px;
+    font-size: 25px;
+}
+#section-logo{
+    float: right;
+    margin: 55px 0px;
+    margin-right: 60px;
+    
+}
+footer{
+    background-color:#f8f8ff;
+    height: 180px;
+}
+
+
+.img-rodape{
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    margin-right: 25px;
+    border: none;
+    
+}
+#img-logo{
+    height: 120px;
+    width: 120px;
+    margin: 20px 55px;
+    border: none;
+}
+
+
+/*---------------------------*/
+
+
+
+/* ------- Responsive ------- */
+
+/* ------- Tela dispositivo pequeno ------- */
+
+@media (min-width: 100px){
+
+ 
+
+}
+/* -------- Tela dispositivo medio ------- */
+
+@media (min-width: 400px) and (max-width: 1000px){
+
+
+
+
+}
+    
+/* ------- Tela desktop ------- */
+
+@media (min-width: 1355px){
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+

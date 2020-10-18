@@ -1,0 +1,137 @@
+<?php include("conexao.php"); ?>
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNJ Architecture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/logo.jpeg" type="image/x-icon" />
+    
+</head>
+<body >
+    <header>
+        <div class="logo"><img src="imagem/logo.jpeg" alt="erro imagem"><a id="home" href="#home"></a></div>
+        <nav >
+            <ul>
+                <li> <a id="navbar" href="#contatos">CONTATOS</a> </li>
+                <li> <a id="navbar" href="#sobre">SOBRE</a></li>
+                <li> <a id="navbar" href="#projetos">PROJETOS</a></li>
+                <li> <a id="navbar" href="#home">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <a id="home" href="#home"><h2 id="projetos">PROJETOS</h2></a>
+        
+        <section id="section-galeria">
+            
+
+            <ul >
+                <li id="galeria-imagem"><img src="imagem/galeria01.jpg" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria02.jpg" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria03.jpg" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria04.jpg" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+                <li id="galeria-imagem"><img src="imagem/galeria05.png" alt="imagem"></li>
+
+            </ul>
+
+        </section>
+
+        <a id="home" href="#home"><h2 id="sobre">SOBRE</h2></a>
+
+        <section>
+
+            <section id="section-avatar"><img id="img-avatar" src="imagem/fotoperfil.jpeg" alt="image no disponible"></section>
+
+        <blockquote>  <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus, 
+            dui vitae dignissim rhoncus, quam neque ultricies elit,
+             blandit aliquam orci arcu ac magna. Sed ultrices ultrices turpis vitae vulputate.
+              Maecenas vel tempor ante, sed gravida metus.
+               Curabitur hendrerit maximus nisl auctor convallis. Proin eget aliquet neque. 
+               Fusce ultricies est a erat elementum tempor. Nam purus urna,
+                sagittis sollicitudin scelerisque sit amet, consectetur at nisi. 
+                Sed mattis tortor a nunc commodo consectetur at et quam. Donec ligula diam,
+                 tincidunt eget lorem vitae, vehicula rutrum augue. In sollicitudin mollis congue.
+                  Nulla facilisi. Quisque sollicitudin odio vitae tincidunt semper.
+                   Suspendisse potenti. Mauris purus lectus, blandit at dui vitae,
+                    gravida rhoncus est. Praesent ac nibh est.
+
+Morbi iaculis feugiat magna, id imperdiet diam iaculis quis. Sed id diam tristique, rutrum est a,
+ consequat nulla. Curabitur sit amet dignissim mi. Etiam sapien neque, rhoncus at odio non, 
+ eleifend vestibulum turpis. Maecenas congue lectus a dui pretium dictum.
+  Integer pellentesque enim vehicula ligula elementum sodales. Proin auctor faucibus vulputate.
+   Donec non velit faucibus, convallis nisl eget, iaculis risus. Nunc ut aliquet justo, eu blandit erat.
+
+In hac habitasse platea dictumst. Integer metus enim, consectetur sit amet finibus pulvinar, 
+commodo sit amet augue. Aliquam vel tincidunt est. Cras maximus faucibus imperdiet. 
+Donec nec odio quis risus pharetra porta. Nulla facilisi. Sed a mi dolor. Donec suscipit, 
+tellus ac convallis condimentum, turpis orci tincidunt diam, at interdum neque nulla sit amet justo.
+
+Duis diam ante, commodo sit amet egestas a, feugiat a turpis.
+ Maecenas lobortis augue sed mattis condimentum. Integer vel est sagittis, dictum nisl ut, 
+ malesuada mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+  Donec vel elit auctor, euismod leo at, interdum leo. Sed in viverra magna. 
+  Maecenas eget ante nec justo gravida semper sed ac tellus.
+
+</p></blockquote>
+        </section>
+
+        <a id="home" href="#home"><h2 id="contatos">CONTATOS</h2></a>
+
+        <section id="section-contato">
+            <div id="div-contato">
+                <form autocomplete="on" method="POST" action="./email.php">
+                <label for="" >Nome</label>
+                <input type="text" name="name">
+                <label for="">E-mail</label>
+                <input type="email" name="email">
+                <label for="">Telefone</label>
+                <input type="tel" name="fone">
+                <label for="">Mensagem</label>
+                <textarea cols="52" rows="9" name="message" ></textarea>
+                <button type="submit">ENVIAR</button>
+              
+            </form>
+
+            <div>
+                <label id="div-contato" for="">Telefone:</label><label id="div-contato" for="">(33) 98423-6125  (27) 99812-2690</label>
+                <label id="div-contato" for="">E-mail</label><label id="div-contato" for=""> knj.architecture@gmail.com</label>
+                </div>
+            </div>
+
+        </section>
+       
+
+
+
+    </main>
+
+    <footer>
+        <section id="footer-inline">
+            <a id="home" href="#home"><img id="img-logo" src="imagem/logo.jpeg" alt="erro imagem"> </a><label id="label-footer" for="">Redes Social</label>
+        </section>
+
+        <section id="section-logo">
+            <ul>
+                <li><a id="link-logo" href="https://www.instagram.com/knj.architecture/"><img class="img-rodape" src="imagem/instagram.png"  alt="image no diponible" ></a></li>
+                <li><a id="link-logo" href="https://www.facebook.com/knj.architecture"><img class="img-rodape" src="imagem/facebook.png" alt="image no diponible"></a></li>
+                <li><a id="link-logo" href="  "><img class="img-rodape" src="imagem/twitter.png" alt="image no diponible"></a></li>
+            </ul>
+        </section>
+
+        <section id="section-copy"><p id="copyright"> Copyright © 2020 KJN architecture - Todos os direitos reservados </p></section>
+
+    </footer>
+
+
+</body>
+</html>
